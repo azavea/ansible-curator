@@ -1,0 +1,5 @@
+---
+- name: Install Curator
+  pip: name=elasticsearch-curator
+       version={{ curator_version }}
+       state=present
